@@ -378,6 +378,7 @@ body {
 .about .about-content .text p:last-of-type {
     line-height: 2;
     color: #333;
+    margin-top: 50px;
 }
 @media screen and (max-width: 991px) {
     .about .about-content .text {
@@ -385,3 +386,62 @@ body {
     }
 }
 /* End About */
+/* Start Contact */
+.contact {
+    padding: 60px 0px;
+    background-color: #fafafa;
+}
+.contact .contact-content {
+    margin-top: 100px;
+    text-align: center;
+}
+.contact .contact-content .label,
+.contact .contact-content .link {
+    font-weight: 800;
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 20px;
+}
+.contact .contact-content .label {
+    color: var(--secondary-color);
+}
+.contact .contact-content .link {
+    color: var(--main-color);
+    text-decoration: none;
+}
+.contact .contact-content .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.contact .contact-content .social p {
+    color: var(--secondary-color);
+    font-size: 20px;
+}
+.contact .contact-content .social i {
+    color: var(--secondary-color);
+    font-size: 20px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 991px) {
+    .contact .contact-content .label,
+    .contact .contact-content .link {
+    font-size: 25px;
+}
+}
+/* End Contact */
+/* Start Fotter */
+.fotter {
+    color: #fafafa;
+    padding: 30px 10px;
+    background-color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.fotter span {
+    color: var(--main-color);
+    font-weight: bold;
+}
+/* End Fotter */
